@@ -1,3 +1,5 @@
+from someMath import facOf, power
+
 print("this works")
 
 for i in range(1,11):
@@ -6,8 +8,11 @@ for i in range(1,11):
     else:
         print(i, "is odd")
 
+for i in range(1,101):
+    print('{}%'.format(i))
 
-message  = '{}%'
 
-for i in range(1, 101):
-    print(message.format(i))
+
+print(power(2,8))
+
+print(facOf(5))
